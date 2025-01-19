@@ -1,23 +1,17 @@
 import 'react-native-gesture-handler';
 import React from 'react';
+import CalendarScreen from './CalendarScreen'; // 외부 캘린더 컴포넌트 import
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { View, Text, StyleSheet } from 'react-native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+
 
 // 각 스크린 정의
 function HomeScreen() {
   return (
     <View style={styles.container}>
       <Text>Home</Text>
-    </View>
-  );
-}
-
-function CalendarScreen() {
-  return (
-    <View style={styles.container}>
-      <Text>Calendar</Text>
     </View>
   );
 }
